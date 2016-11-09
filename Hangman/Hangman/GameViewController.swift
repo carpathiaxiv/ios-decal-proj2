@@ -37,6 +37,7 @@ class GameViewController: UIViewController {
         img5.isHidden=true
         img6.isHidden=true
         img7.isHidden=true
+        deathCount=0
     }
     @IBOutlet weak var guessButton: UIButton!
     @IBOutlet weak var img2: UIImageView!
